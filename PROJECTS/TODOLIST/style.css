@@ -1,0 +1,77 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(
+        135deg,
+        #8052ec,
+
+        #d161ff
+    );
+
+}
+
+.flex{
+    display: flex;
+
+}
+
+.container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    margin-top: 30vh;
+
+}
+
+.deleteTask {
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    
+ 
+}
+
+li {
+    margin: 5px 0;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f7f7f7;
+    padding: 8px;
+    /* gap: 100px; */
+    border-radius: 5px;
+    width: 220px;
+}
+
+#addtask{
+    padding: 10px;
+    background-color: #24a7f9;
+    border: 1px solid black;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.inputfield{
+    flex-direction: row;
+    gap: 10px;
+    
+}
