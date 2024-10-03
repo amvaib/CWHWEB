@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEATHER APP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- https://api.openweathermap.org/data/2.5/weather?q=berlin&appid=3a4583ea3fd6157dab3c67c9a67b7908&units=metric -->
+    
+
+
+        <div class="card flex">
+
+            <div class="inputsection flex">
+                <input class="searchbox" type="text" id="inputtext" placeholder="enter city name">
+    
+                <button class="searchbtn"><img src="./img/search-interface-symbol.png" alt=""></button>
+            </div>
+
+            <div class="weather">
+
+                <img class="mainimg" src="./img/rain.png" alt="clouds" class="cloud">
+
+                <h1 class="temp"></h1>
+                <h2 class="city"></h2>
+
+                <div class="twosec flex">
+                    <div class="humidity flex">
+                        <img src="./img/humidity.png" alt="">
+
+                        <div class="humiditytxt">
+                            <p class="humidityper"></p>
+                            <p>Humidity</p>
+                        </div>
+                    </div>
+
+
+                    <div class="wind flex">
+
+                        <img class="windimg" src="./img/wind.png" alt="">
+
+                        <div class="windtxt">
+                            <p class="windspeed">15 km/h</p>
+                            <p>Wind Speed</p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
+
+        </div>    
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
