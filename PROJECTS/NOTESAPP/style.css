@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+}
+
+body{
+    background-color: #E4B1F0;
+
+    font-family: roboto;
+}
+
+
+h1{
+    color: black;
+
+}
+
+.head{
+    padding: 20px;
+
+}
+
+.head img{
+    width: 100px;
+}
+
+.createNote{
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-left: 20px;
+    max-width: 200px;
+    border-radius: 30px;
+    border: #E4B1F0 solid 1px;
+    background-color: #7E60BF;
+    color: white;
+    gap: 20px;
+    cursor: pointer;
+
+
+
+
+    /* margin: 100px auto 0; */
+
+}
+
+.createNote:hover{
+    background-color: #3a2667;
+    color: white;
+}
+
+.createNote img{
+    width: 20px;
+
+}
+
+.head{
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.container{
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.input-box{
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    min-height: 150px;
+    background-color: white;
+    color: #333;
+    padding: 20px;
+    margin: 20px 0;
+    outline: none;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+
+.deleteimg{
+    position :absolute;
+   left: 440px;
+   top: 100px;
+   cursor: pointer;
+
+   width: 50px;
+
+}
+
+.deleteimg:hover{
+    transform: scale(1.1);
+}
