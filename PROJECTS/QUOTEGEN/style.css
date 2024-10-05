@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #161D6F;
+    color: white;
+    font-family: roboto;
+}
+
+
+.card{
+    width: 40%;
+    background-color: white;
+    color: black;
+    margin: 100px auto 0;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+
+}
+
+
+.flex{
+    display: flex;
+}
+
+button{
+    border-radius: 30px;
+    /* border: solid 1px black; */
+
+}
+
+.tweet{
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    /* border: none; */
+    gap: 5px;
+    transition: all ease-in-out 0.3s ;
+    border: none;
+    cursor: pointer;
+    
+    
+}
+
+.tweet:hover{
+    background-color: #0B2F9F;
+    color: white;
+    transform: scale(1.1);
+}
+
+
+.next{
+    padding: 15px;
+    background-color: #0B2F9F;
+    color: white;
+    border: none;
+transition: 0.3s all ease-in-out;
+cursor: pointer;
+
+
+}
+
+.next:hover{
+    background-color:#161D6F;
+    color: white;
+    transform: scale(1.1);
+
+}
+
+.buttonsec{
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.twitterlogo{
+    width: 15px;
+    
+}
+
+.apicontent{
+    position: relative;
+    flex-direction: column;
+    gap: 70px;
+    justify-content: space-around;
+    padding: 30px;
+
+}
+
+.author{
+    align-self: flex-end;
+    justify-self: flex-end;
+}
+
+.heading{
+    gap: 20px;
+    flex-direction: column;
+}

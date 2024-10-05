@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: roboto;
+    box-sizing: border-box;
+}
+h1{
+    font-family: roboto;
+    font-size: 60px;
+    font-weight: 600;
+
+}
+
+.head2{
+    color: rgb(242, 242, 89);
+}
+
+.flex{
+    display: flex;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #4203a9, #90bafc);
+    color: white;
+    padding: 10px;
+}
+
+input{
+    flex:1;
+    margin-right: 20px;
+    padding: 20px;
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.calculator{
+    width: 25em;
+    background-color: white;
+    height: 40%;
+    /* justify-content: center; */
+    align-items: center;
+    border-radius: 20px;
+    justify-content: space-evenly;
+
+
+    gap: 20px;
+}
+
+.calculate{
+    padding: 15px;
+    border-radius: 20px;
+    outline: 0;
+    border: none;
+    background-color:  rgb(242, 242, 89);
+
+    cursor: pointer;
+
+
+}
+
+.calculate:hover{
+    background-color: green;
+    color: white;
+}
+
+.outputtxt{
+    color: white;
+    
+}
