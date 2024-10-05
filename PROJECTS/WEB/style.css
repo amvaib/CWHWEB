@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+.flex{
+    display: flex;
+}
+
+
+
+.container{
+    /* background-color: #416def; */
+    height: 100vh;
+
+
+}
+
+.flexc{
+    flex-direction: column;
+}
+
+.flexr{
+    flex-direction: row;
+}
+
+.navcomp{
+    background-color: #161D6F;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+
+.searchbar{
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+}
+
+.search{
+    gap: 20px;
+}
+
+.searchbtn{
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: #ffff;
+    font: bolder;
+    color: black;
+    transition: all ease-in-out 0.3s;
+    cursor: pointer;
+
+
+}
+
+.obj-width{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.searchbtn:hover{
+    transform: scale(1.1);
+    background-color: #0B2F9F;
+    color: white;
+}
+
+
+.newsicon{
+    width: 50px;
+    filter: invert();
+
+    
+}
+
+.heading{
+    gap: 10px;
+
+}
+
+.newslogo{
+    font-size: 40px;
+    font-family: pacifico;
+    color: white;
+    text-decoration: none;
+    }
+
+.container{
+    margin: 3rem;
+
+}
+
+.cardcontainer{
+    margin-left: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: flex-start; */
+    justify-content: center;
+    align-items: center;
+    
+    gap: 40px;
+    
+
+}
+
+.blogcard{
+    width: 280px;
+    height: 30rem;
+    padding: 1rem;
+    margin: 10px;
+    border: solid 1px black;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #0B2F9F;
+    color: white;
+    overflow: scroll;
+
+
+}
+
+.blogcard img {
+    width: 100%;      /* Ensure the image takes the full width of its container */
+    height: auto;     /* Maintain the aspect ratio */
+    max-height: 280px; /* Optional: restrict maximum height */
+    object-fit: cover; /* Ensures the image fits properly inside the container */
+    border-radius: 10px; /* Optional: for a nice rounded edge effect */
+}
+
+
+.cardpara{
+    font-size: 1.2rem;
+    padding-top: 0.7rem;
+}
+
+
+@media (max-width:500px){
+    nav{
+        padding: 0 20px;
+    }
+
+    
+}
